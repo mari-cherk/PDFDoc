@@ -33,7 +33,7 @@ public class PdfTests {
     @Test
     public void pdfDocWriteTest(){
         pdfDocWrite.pdfDocWriteFromText();
-        File createdFile = new File("E:/Auto/PDFDoc/src/newPdfDoc.pdf");
+        File createdFile = new File("src/newPdfDoc.pdf");
         Assert.assertTrue(createdFile.exists());
     }
 }
